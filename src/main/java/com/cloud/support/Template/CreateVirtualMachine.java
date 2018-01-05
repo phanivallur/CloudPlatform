@@ -30,9 +30,8 @@ public class CreateVirtualMachine {
 	}
 
 	private String getRequiredServiceOffering(Map<Integer, String> serviceOfferingList) {
-		// TODO Auto-generated method stub
-		
-		return null;
+		// TODO Auto-generated method stub		
+		return "Latest Service Offering";
 	}
 
 	private Map<Integer, String> getServiceOfferingID(String zoneUUID) {
