@@ -20,7 +20,7 @@ public class CreateVirtualMachine {
 		init.display();
 		init.connect();
 		
-		String zoneUUID=init.getZoneID();
+		String zoneUUID=init.getZoneID(); 
 		System.out.println("ZoneID: "+zoneUUID);		
 		Map<Integer, String> templates = init.getHyperVisorType(zoneUUID);				
 		String templateUUID=init.getRequiredTemplate(templates);
